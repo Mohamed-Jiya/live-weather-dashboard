@@ -1,0 +1,18 @@
+{
+  "name": "weather-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "corepack": "^0.33.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "npm": "^10.9.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

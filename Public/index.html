@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header>
+        <h1>Live Weather Dashboard</h1>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <div class="main-layout">
+            <!-- SIDEBAR: Search and History -->
+            <aside class="sidebar">
+                <!-- Search Section -->
+                <section id="search-section">
+                    <h2>Search for a city:</h2>
+                    <form>
+                        <input type="text" class="search-section-input" placeholder="Enter a city name" required/>
+                        <button type="submit" class="search-section-button">Search</button>
+                    </form>
+                </section>
+
+                <!-- Search History -->
+                <section id="history-section">
+                    <h2>Search History</h2>
+                    <div id="history-container"></div>
+                </section>
+            </aside>
+
+            <!-- MAIN WEATHER DISPLAY -->
+            <div class="weather-display">
+                <!-- Current Weather -->
+                <section id="current-weather" class="current-weather-section">
+                    <h2 id="city-name">City Name (Date)</h2>
+                    <div class="weather-details">
+                        <p><strong>Temperature:</strong> <span id="temperature">--</span>°C</p>
+                        <p><strong>Humidity:</strong> <span id="humidity">--</span>%</p>
+                        <p><strong>Wind Speed:</strong> <span id="wind-speed">--</span> m/s</p>
+                    </div>
+                </section>
+
+                <!-- 5-Day Forecast -->
+                <section id="forecast" class="forecast-section">
+                    <h2>5-Day Forecast</h2>
+                    <div id="forecast-container" class="forecast-cards-container"></div>
+                </section>
+            </div>
+        </div>
+
+        <!-- UI STATE ELEMENTS (Outside layout for proper overlay positioning) -->
+        <div id="loader" class="loader hidden">Loading weather data...</div>
+        <div id="error-container" class="error-message hidden" role="alert" aria-live="polite"></div>
+    </main>
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+</body>
+</html>

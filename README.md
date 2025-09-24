@@ -170,14 +170,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Mohamed Jiya**
 
-## 📞 Support / Contact
+- GitHub: [@Mohamed-Jiya](https://github.com/Mohamed-Jiya)
+- [LinkedIn: Mohamed Jiya baig](https://www.linkedin.com/in/mohamed-jiya-baig)
 
-If you encounter any issues or have questions, feel free to reach out:
-
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mohamed-Jiya)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohamed-jiya-baig)
-[![Gmail](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](Jiya:ziyabaig77@gmail.com)
-
+- 
 ## 🙏 Acknowledgments
 
 - [OpenWeatherMap](https://openweathermap.org/) for weather API

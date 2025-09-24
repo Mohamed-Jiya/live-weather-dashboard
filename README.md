@@ -170,7 +170,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Mohamed Jiya**
 - GitHub: [@Mohamed-Jiya](https://github.com/Mohamed-Jiya)
-- LinkedIn: [@Mohamed Jiya baig](www.linkedin.com/in/mohamed-jiya-baig)
+- [LinkedIn: Mohamed Jiya baig](https://www.linkedin.com/in/mohamed-jiya-baig)
 
 ## 🙏 Acknowledgments
 
